@@ -1,0 +1,417 @@
+[
+  {
+    "date": "2025-08-10",
+    "topic": "Golang — Project Structure & CLI Skeleton",
+    "background": "Learn Go module system (go mod init, go get, replace) and set up a CLI skeleton using Cobra or urfave/cli. This prepares you for scalable Go CLI apps."
+  },
+  {
+    "date": "2025-08-11",
+    "topic": "React — Hooks-Only App",
+    "background": "Build a small React app using only hooks (useState, useEffect). Focus on lifting state up and avoiding class components entirely."
+  },
+  {
+    "date": "2025-08-12",
+    "topic": "SQLite — Data Storage Basics",
+    "background": "Understand how SQLite stores data on disk (pages, b-trees) and practice writing CREATE TABLE with constraints, primary keys, and foreign keys."
+  },
+  {
+    "date": "2025-08-13",
+    "topic": "Golang — Channels & Worker Pool",
+    "background": "Explore channels (buffered/unbuffered) and implement a worker pool pattern for concurrent processing."
+  },
+  {
+    "date": "2025-08-14",
+    "topic": "React — Controlled vs Uncontrolled Components",
+    "background": "Learn the difference between controlled and uncontrolled inputs. Build a form managed entirely with useState."
+  },
+  {
+    "date": "2025-08-15",
+    "topic": "SQLite — Query Optimization",
+    "background": "Use EXPLAIN QUERY PLAN to see how SQLite executes queries. Compare indexed vs non-indexed performance."
+  },
+  {
+    "date": "2025-08-16",
+    "topic": "Golang — Interfaces & Mocking",
+    "background": "Learn how interfaces enable loose coupling in Go. Write a mock implementation for unit testing."
+  },
+  {
+    "date": "2025-08-17",
+    "topic": "React — Context API",
+    "background": "Use the Context API to replace prop drilling. Build a theme switcher that works app-wide."
+  },
+  {
+    "date": "2025-08-18",
+    "topic": "SQLite — Multi-Table Joins",
+    "background": "Design a schema with multiple tables. Practice writing joins, nested queries, and aggregates."
+  },
+  {
+    "date": "2025-08-19",
+    "topic": "Golang — JSON Marshalling",
+    "background": "Use encoding/json to decode API responses into structs and encode Go structs into JSON."
+  },
+  {
+    "date": "2025-08-20",
+    "topic": "React — useReducer Hook",
+    "background": "Use the useReducer hook for complex state logic. Compare with Redux in terms of complexity and setup."
+  },
+  {
+    "date": "2025-08-21",
+    "topic": "SQLite — Transactions & ACID",
+    "background": "Learn transactions in SQLite and understand the ACID properties. Practice rollback and commit operations."
+  },
+  {
+    "date": "2025-08-22",
+    "topic": "Golang — Error Handling",
+    "background": "Learn idiomatic error handling in Go. Create custom error types and wrap errors."
+  },
+  {
+    "date": "2025-08-23",
+    "topic": "React — Memoization",
+    "background": "Use useMemo and React.memo to optimize performance. Avoid unnecessary renders in expensive calculations."
+  },
+  {
+    "date": "2025-08-24",
+    "topic": "SQLite — Triggers",
+    "background": "Learn about triggers in SQLite. Build one for audit logging table changes."
+  },
+  {
+    "date": "2025-08-25",
+    "topic": "Golang — REST API with SQLite",
+    "background": "Build a REST API in Go with Gorilla/Mux or Chi and connect it to SQLite."
+  },
+  {
+    "date": "2025-08-26",
+    "topic": "React — React Router Basics",
+    "background": "Learn routing in React with nested routes and URL params. Build a small multi-page app."
+  },
+  {
+    "date": "2025-08-27",
+    "topic": "SQLite — Full-Text Search",
+    "background": "Implement FTS5 search in SQLite to make text queries fast and efficient."
+  },
+  {
+    "date": "2025-08-28",
+    "topic": "Golang — Testing",
+    "background": "Write table-driven tests in Go using the testing package."
+  },
+  {
+    "date": "2025-08-29",
+    "topic": "React — Portals & Modals",
+    "background": "Use React portals to render components outside the DOM hierarchy. Implement an accessible modal."
+  },
+  {
+    "date": "2025-08-30",
+    "topic": "SQLite — Data Import/Export",
+    "background": "Export data from SQLite to CSV/JSON and import data from external sources."
+  },
+  {
+    "date": "2025-08-31",
+    "topic": "Golang — Concurrent File Downloader",
+    "background": "Build a file downloader using goroutines with progress tracking and error handling."
+  },
+  {
+    "date": "2025-09-01",
+    "topic": "Golang — Concurrency Patterns",
+    "background": "Implement fan-in and fan-out concurrency patterns to process multiple data streams."
+  },
+  {
+    "date": "2025-09-02",
+    "topic": "React — Error Boundaries",
+    "background": "Learn error boundaries in React to catch runtime errors in components."
+  },
+  {
+    "date": "2025-09-03",
+    "topic": "SQLite — Partial Indexes",
+    "background": "Learn to create partial and covering indexes for performance tuning."
+  },
+  {
+    "date": "2025-09-04",
+    "topic": "Golang — Context Usage",
+    "background": "Use context.Context for request cancellation and deadlines."
+  },
+  {
+    "date": "2025-09-05",
+    "topic": "React — useCallback",
+    "background": "Prevent unnecessary function re-creations with useCallback and check performance in DevTools."
+  },
+  {
+    "date": "2025-09-06",
+    "topic": "Integration Project — Mini Task Manager",
+    "background": "Go backend, SQLite DB, and React frontend for a simple task management tool with filters."
+  },
+  {
+    "date": "2025-09-07",
+    "topic": "SQLite — CTEs",
+    "background": "Learn Common Table Expressions to simplify complex queries."
+  },
+  {
+    "date": "2025-09-08",
+    "topic": "Golang — Mutexes",
+    "background": "Learn sync.Mutex and sync.RWMutex for thread-safe access to shared resources."
+  },
+  {
+    "date": "2025-09-09",
+    "topic": "React — Custom Hooks",
+    "background": "Build a reusable custom hook for data fetching with loading and error states."
+  },
+  {
+    "date": "2025-09-10",
+    "topic": "SQLite — Pragmas",
+    "background": "Configure SQLite behavior using PRAGMA commands like journal_mode and synchronous."
+  },
+  {
+    "date": "2025-09-11",
+    "topic": "Golang — time Package",
+    "background": "Work with dates and times, formatting and parsing with the time package."
+  },
+  {
+    "date": "2025-09-12",
+    "topic": "React — PropTypes & DefaultProps",
+    "background": "Validate props at runtime with PropTypes and define default values."
+  },
+  {
+    "date": "2025-09-13",
+    "topic": "Integration Project — Expense Tracker",
+    "background": "Full-stack app with Go, SQLite, and React to track expenses with category filters."
+  },
+  {
+    "date": "2025-09-14",
+    "topic": "SQLite — Extensions",
+    "background": "Write a custom SQLite extension in Go or C."
+  },
+  {
+    "date": "2025-09-15",
+    "topic": "Golang — Middleware",
+    "background": "Implement logging and timing middleware for HTTP servers."
+  },
+  {
+    "date": "2025-09-16",
+    "topic": "React — Suspense",
+    "background": "Use React Suspense for asynchronous data loading."
+  },
+  {
+    "date": "2025-09-17",
+    "topic": "SQLite — Window Functions",
+    "background": "Use ROW_NUMBER, RANK, LEAD, and LAG for advanced analytics."
+  },
+  {
+    "date": "2025-09-18",
+    "topic": "Golang — Templates",
+    "background": "Generate HTML using Go templates with dynamic data."
+  },
+  {
+    "date": "2025-09-19",
+    "topic": "React — CSS-in-JS",
+    "background": "Use styled-components or Emotion for scoped component styling."
+  },
+  {
+    "date": "2025-09-20",
+    "topic": "Integration Project — Bookmarks Manager",
+    "background": "Build a bookmarks manager with Go API, SQLite backend, and React frontend."
+  },
+  {
+    "date": "2025-09-21",
+    "topic": "SQLite — Migrations",
+    "background": "Use golang-migrate to manage database schema changes."
+  },
+  {
+    "date": "2025-09-22",
+    "topic": "Golang — Advanced JSON Streaming",
+    "background": "Work with streaming JSON decoders to handle large API payloads efficiently without loading everything into memory."
+  },
+  {
+    "date": "2025-09-23",
+    "topic": "React — Performance Profiling",
+    "background": "Use React DevTools profiler to identify and optimize slow rendering components."
+  },
+  {
+    "date": "2025-09-24",
+    "topic": "SQLite — Write-Ahead Logging (WAL)",
+    "background": "Understand and enable WAL mode to improve concurrency and performance in SQLite."
+  },
+  {
+    "date": "2025-09-25",
+    "topic": "Golang — iota and Const Tricks",
+    "background": "Use iota for auto-incrementing constants and create neat enum-like constructs."
+  },
+  {
+    "date": "2025-09-26",
+    "topic": "React — Accessibility Basics",
+    "background": "Add ARIA roles, manage keyboard navigation, and ensure screen reader compatibility."
+  },
+  {
+    "date": "2025-09-27",
+    "topic": "Integration Project — Personal Notes App",
+    "background": "Build a notes app with Go API, Markdown support, React live preview, tagging, and dark mode toggle."
+  },
+  {
+    "date": "2025-09-28",
+    "topic": "SQLite — Backup and Restore",
+    "background": "Programmatically back up and restore SQLite databases safely."
+  },
+  {
+    "date": "2025-09-29",
+    "topic": "Golang — Benchmarks",
+    "background": "Write benchmarks with go test -bench to measure and optimize performance."
+  },
+  {
+    "date": "2025-09-30",
+    "topic": "React — Code Splitting & Lazy Loading",
+    "background": "Split your React app into chunks and load components lazily with React.lazy and Suspense."
+  },
+  {
+    "date": "2025-10-01",
+    "topic": "Bootcamp — Project Setup",
+    "background": "Plan your full-stack project features and architecture. Initialize Git repo, Go modules, React project, and SQLite database."
+  },
+  {
+    "date": "2025-10-02",
+    "topic": "Bootcamp — Backend API Structure",
+    "background": "Organize your Go project folders (cmd/, internal/, pkg/). Build a basic HTTP server using Gorilla/Mux or Chi."
+  },
+  {
+    "date": "2025-10-03",
+    "topic": "Bootcamp — Frontend Shell",
+    "background": "Set up React with react-router-dom. Create placeholder pages: Dashboard, Project Details, Settings."
+  },
+  {
+    "date": "2025-10-04",
+    "topic": "Bootcamp — Database Schema Design",
+    "background": "Design SQLite schema for projects, tasks, tags, users. Use migrations with golang-migrate."
+  },
+  {
+    "date": "2025-10-05",
+    "topic": "Bootcamp — Authentication System",
+    "background": "Implement JWT authentication in Go. Create React auth context and login/register pages."
+  },
+  {
+    "date": "2025-10-06",
+    "topic": "Bootcamp — CRUD: Projects",
+    "background": "Build backend endpoints and frontend forms for creating, listing, updating, and deleting projects."
+  },
+  {
+    "date": "2025-10-07",
+    "topic": "Bootcamp — CRUD: Tasks",
+    "background": "Manage tasks linked to projects with due dates and status; implement inline editing in React."
+  },
+  {
+    "date": "2025-10-08",
+    "topic": "Bootcamp — CRUD: Notes",
+    "background": "Add markdown-capable notes linked to projects with a React markdown editor and live preview."
+  },
+  {
+    "date": "2025-10-09",
+    "topic": "Bootcamp — Search & Filtering",
+    "background": "Implement full-text search in SQLite and add search and filter UI components in React."
+  },
+  {
+    "date": "2025-10-10",
+    "topic": "Bootcamp — User Settings",
+    "background": "Create backend user profile endpoints and frontend settings page for editable user data."
+  },
+  {
+    "date": "2025-10-11",
+    "topic": "Bootcamp — Relationships & Performance",
+    "background": "Add SQLite indexes to speed up joins and optimize dashboard queries."
+  },
+  {
+    "date": "2025-10-12",
+    "topic": "Bootcamp — File Uploads",
+    "background": "Implement file upload handling in Go, link files to projects, store metadata in SQLite, and files on disk."
+  },
+  {
+    "date": "2025-10-13",
+    "topic": "Bootcamp — Caching Layer",
+    "background": "Add in-memory caching in Go for frequent queries and implement cache invalidation."
+  },
+  {
+    "date": "2025-10-14",
+    "topic": "Bootcamp — React Performance Optimization",
+    "background": "Use memoization, lazy loading, and code splitting to optimize frontend performance."
+  },
+  {
+    "date": "2025-10-15",
+    "topic": "Bootcamp — API Security",
+    "background": "Add rate limiting and data validation middleware to protect your backend."
+  },
+  {
+    "date": "2025-10-16",
+    "topic": "Bootcamp — Styling & Theming",
+    "background": "Implement dark/light theme switching in React using Context API."
+  },
+  {
+    "date": "2025-10-17",
+    "topic": "Bootcamp — Notifications",
+    "background": "Add in-app toast notifications in React and email alerts from the backend."
+  },
+  {
+    "date": "2025-10-18",
+    "topic": "Bootcamp — Backend Testing",
+    "background": "Write unit tests and HTTP handler tests in Go using the testing and httptest packages."
+  },
+  {
+    "date": "2025-10-19",
+    "topic": "Bootcamp — Frontend Testing",
+    "background": "Write Jest and React Testing Library tests for critical components."
+  },
+  {
+    "date": "2025-10-20",
+    "topic": "Bootcamp — Backend Deployment",
+    "background": "Dockerize your Go API and SQLite database. Test locally with docker-compose."
+  },
+  {
+    "date": "2025-10-21",
+    "topic": "Bootcamp — Frontend Deployment",
+    "background": "Build the React app for production and serve via Go backend or static hosting."
+  },
+  {
+    "date": "2025-10-22",
+    "topic": "Bootcamp — CI/CD Setup",
+    "background": "Set up GitHub Actions pipeline to run tests, build and deploy automatically."
+  },
+  {
+    "date": "2025-10-23",
+    "topic": "Bootcamp — Monitoring & Logging",
+    "background": "Add logging middleware and integrate basic analytics or error tracking."
+  },
+  {
+    "date": "2025-10-24",
+    "topic": "Bootcamp — Documentation",
+    "background": "Write technical docs, API reference, and usage guides for your app."
+  },
+  {
+    "date": "2025-10-25",
+    "topic": "Bootcamp — Final Feature Polish",
+    "background": "Fix bugs, improve UI/UX, and add any missing small features before launch."
+  },
+  {
+    "date": "2025-10-26",
+    "topic": "Bootcamp — Load Testing",
+    "background": "Use tools like hey or k6 to perform load tests on your backend API."
+  },
+  {
+    "date": "2025-10-27",
+    "topic": "Bootcamp — Security Audit",
+    "background": "Audit your app for SQL injection, XSS, CSRF, and update dependencies."
+  },
+  {
+    "date": "2025-10-28",
+    "topic": "Bootcamp — Backup & Restore",
+    "background": "Implement backup and restore endpoints for your SQLite database."
+  },
+  {
+    "date": "2025-10-29",
+    "topic": "Bootcamp — Staging Deployment",
+    "background": "Deploy your app to a staging environment and test with real-world data."
+  },
+  {
+    "date": "2025-10-30",
+    "topic": "Bootcamp — Production Deployment",
+    "background": "Deploy your app live on a platform like Fly.io, Railway, or DigitalOcean."
+  },
+  {
+    "date": "2025-10-31",
+    "topic": "Bootcamp — Launch Day 🎉",
+    "background": "Announce your project, gather feedback, and plan the next version."
+  }
+]
